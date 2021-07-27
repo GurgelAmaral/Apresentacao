@@ -1,37 +1,37 @@
-.main-color{
+.main-color {
     color: #4824AE;
 }
 
-body, *{
+body, * {
     padding: 0;
     margin: 0;
     font-family: 'Questrial', sans-serif;
 }
-main{
+
+main {
     padding: 0px 14px 0px 14px;
 }
 
-.containera{
+.containera {
     background-color: #ececec;
     padding: 50px 14px 14px 14px;
-    
 }
 
-#headline{
+#headline {
     font-size: 2.7rem;
     line-height: 2.6rem;
     color: #362557;
 }
 
-#pres{
+#pres {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
     padding: 40px;
 }
 
-#pres-text{
+#pres-text {
     margin-top: -70px;
     display: flex;
     flex-direction: column;
@@ -39,16 +39,16 @@ main{
     justify-content: baseline;
 }
 
-#h1-pres-text{
+#h1-pres-text {
     font-size: 3.2rem;
 }
 
-#pres-text-desc{
+#pres-text-desc {
     margin-top: -24px;
     margin-left: 5px;
 }
 
-.main-title{
+.main-title {
     background-color: #362557;
     color: white;
     padding: 2px;
@@ -60,13 +60,13 @@ main{
     justify-content: center;
 }
 
-.main-content{
+.main-content {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-#abs-div{
+#abs-div {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -74,7 +74,7 @@ main{
     padding: 30px 0px 0px 0px;
 }
 
-.abs{
+.abs {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -84,7 +84,7 @@ main{
     text-align: center;
 }
 
-.card{
+.card {
     display: flex;
     justify-content: left;
     align-items: baseline;
@@ -92,19 +92,19 @@ main{
     padding: 17px;
 }
 
-.proj-desc{
+.proj-desc {
     width: 250px;
     text-align: left;
     font-size: 1rem;
     color: #7B7B7B;
 }
 
-.proj-title{
+.proj-title {
     color: #362557;
     font-size: 1.7rem;
 }
 
-footer{
+footer {
     background-color: #1e1d20;
     color: white;
     display: flex;
@@ -115,11 +115,11 @@ footer{
     gap: 20px;
 }
 
-footer a{
+footer a {
     color: #4824AE;
 }
 
-.btns{
+.btns {
     background-color: #4824AE;
     color: white;
     padding: 6px 2px;
@@ -131,14 +131,99 @@ footer a{
     align-items: center;
 }
 
-ul{
+ul {
     font-weight: bold;
     width: 100%;
 }
 
-li{
+li {
     padding: 0px;
     background-color: transparent;
 }
 
+.centralizer {
+    display: flex;
+    align-items: center;
+    gap: 7px
+}
 
+#headline-imgs{
+    margin-top: 35px;
+}
+
+.show-display{
+    display: none;
+}
+
+#headline-hr{
+    width: 600px;
+}
+
+@media screen and (min-width: 640px) {
+    .centralizer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 7px
+    }
+    .containera{
+        height: 300px;
+        padding-top: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #headline{
+        text-align: center;
+    }
+
+    #headline-imgs{
+        margin-top: 15px;
+    }
+    .show-display{
+        display: block;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    #pres{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #headline{
+        font-size: 3.4rem;
+    }
+
+    #headline-hr{
+        width: 750px;
+    }
+
+    #h1-pres-text{
+        margin-top: 55px;
+        font-size: 4rem;
+    }
+
+    #pres-img{
+        width: 400px;
+    }
+
+    .abs{
+        width: 250px;
+        flex-direction: column;
+    }
+
+    #abs-div{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: center;
+    }
+    .abs-img{
+        width: 85px;
+    }
+}
