@@ -115,6 +115,10 @@ footer{
     gap: 20px;
 }
 
+footer a{
+    color: #4824AE;
+}
+
 .btns{
     background-color: #4824AE;
     color: white;
