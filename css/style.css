@@ -23,6 +23,10 @@ main {
     color: #362557;
 }
 
+#headline-imgs img:hover{
+    opacity: .60 !important;
+}
+
 #pres {
     display: flex;
     flex-direction: column;
@@ -86,10 +90,17 @@ main {
 
 .card {
     display: flex;
-    justify-content: left;
-    align-items: baseline;
-    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
     padding: 17px;
+}
+
+.in-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
 }
 
 .proj-desc {
@@ -119,6 +130,26 @@ footer a {
     color: #4824AE;
 }
 
+#footer-img-div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 7px;
+}
+
+#footer-img-div img{
+    opacity: .5;
+}
+
+#footer-img-div img:hover{
+    opacity: .6;
+}
+
+.gh-links {
+    text-decoration: none;
+    color: white !important;
+}
+
 .btns {
     background-color: #4824AE;
     color: white;
@@ -129,6 +160,12 @@ footer a {
     gap: 10px;
     justify-content: center;
     align-items: center;
+}
+
+.btns:hover {
+    cursor: pointer;
+    background-color: #412199;
+    color: white;
 }
 
 ul {
@@ -147,59 +184,57 @@ li {
     gap: 7px
 }
 
-#headline-imgs{
+#headline-imgs {
     margin-top: 35px;
 }
 
-.show-display{
+.show-display {
     display: none;
 }
 
-#headline-hr{
+#headline-hr {
     width: 600px;
 }
 
-.btn{
+.btn {
     margin-top: 10px;
-
 }
-.btn:focus{
+
+.btn:focus {
     box-shadow: none !important;
 }
 
-.btn:hover{
-    transform: scale(1.1);
-    transition: all .4s;
+.btn:hover {
+    transform: scale(1.03);
+    transition: all .2s;
 }
 
-#btn-html{
+#btn-html {
     background-color: #e45e3c85;
     color: white;
-    
 }
 
-#btn-css{
+#btn-css {
     background-color: #59a9db7e;
     color: white;
-    
 }
 
-#btn-js{
+#btn-js {
     background-color: #e7b24e7e;
     color: white;
 }
 
-#btn-bs{
+#btn-bs {
     background-color: #63527e83;
     color: white;
 }
 
-#btn-react{
+#btn-react {
     background-color: #4e4e5f;
     color: white;
 }
 
-#btn-git{
+#btn-git {
     background-color: #808080;
     color: white;
 }
@@ -211,7 +246,7 @@ li {
         align-items: center;
         gap: 7px
     }
-    .containera{
+    .containera {
         height: 300px;
         padding-top: 30px;
         display: flex;
@@ -219,56 +254,69 @@ li {
         justify-content: center;
         align-items: center;
     }
-
-    #headline{
+    #headline {
         text-align: center;
     }
-
-    #headline-imgs{
+    #headline-imgs {
         margin-top: 15px;
     }
-    .show-display{
+    .show-display {
         display: block;
     }
 }
 
+@media screen and (min-width: 768px) {
+    .in-card {
+        flex-direction: row;
+    }
+    .proj-desc {
+        width: 350px;
+    }
+    .proj-title {
+        font-size: 2.7rem;
+    }
+    .in-card > img{
+        width: 330px;
+    }
+}
+
 @media screen and (min-width: 800px) {
-    #pres{
+    #pres {
         display: flex;
         flex-direction: row;
         align-items: center;
         justify-content: center;
     }
-
-    #headline{
+    #headline {
         font-size: 3.4rem;
     }
-
-    #headline-hr{
+    #headline-hr {
         width: 750px;
     }
-
-    #h1-pres-text{
+    #h1-pres-text {
         margin-top: 55px;
         font-size: 4rem;
     }
-
-    #pres-img{
+    #pres-img {
         width: 400px;
     }
-
-    .abs{
+    .abs {
         width: 250px;
         flex-direction: column;
     }
-
-    #abs-div{
+    #abs-div {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
         justify-content: center;
+        max-width: 1000px;
+        text-align: center;
     }
-    .abs-img{
+    .abs-img {
         width: 85px;
+    }
+    #abs-section {
+        display: flex;
+        justify-content: center;
     }
 }

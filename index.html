@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="shortcut icon" href="./imgs/html.png" type="image/x-icon">
     <script src="https://kit.fontawesome.com/45752b9023.js" crossorigin="anonymous"></script>
     <title>Lucas Gurgel - Portfólio</title>
 </head>
@@ -60,10 +61,16 @@
         </span>
         <hr id="headline-hr" class="show-display">
         <div id="headline-imgs" class="centralizer">
-            <img src="./imgs/github-logo-silhouette-in-a-square.png" style="border-radius: 8px; opacity: .47;"
-                width="45px" alt="logo github">
-            <img src="./imgs/linkedin.png" style="opacity: .47;" width="45px" alt="logo linkedin">
-            <img src="./imgs/gmail.png" style="opacity: .47;" width="63px" alt="logo gmail">
+            <a href="https://github.com/GurgelAmaral" target="_blank">
+                <img src="./imgs/github-logo-silhouette-in-a-square.png" style="border-radius: 8px; opacity: .47;"
+                    width="45px" alt="logo github">
+            </a>
+            <a href="https://www.linkedin.com/in/lucas-gurgel-/" target="_blank">
+                <img src="./imgs/linkedin.png" style="opacity: .47;" width="45px" alt="logo linkedin">
+            </a>
+            <a title="E-mail: contato.lucasgurgel@gmail.com"  href="mailto:contato.lucasgurgel@gmail.com">
+                <img src="./imgs/gmail.png" style="opacity: .47;" width="63px" alt="logo gmail">
+            </a>
         </div>
     </section>
     <section id="pres">
@@ -91,260 +98,285 @@
         <span>
             <h2 class="main-title">Habilidades</h2>
         </span>
-        <div id="abs-div">
-            <span class="abs" style="background-color: #e34c2685;">
-                <img class="abs-img" src="./imgs/html.png" width="120px" alt="logo HTML 5">
-                <!-- Button trigger modal -->
-                <button id="btn-html" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mod1">
-                    Ver HTML
-                </button>
+        <section id="abs-section">
+            <div id="abs-div">
+                <span class="abs" style="background-color: #e34c2685;">
+                    <img class="abs-img" src="./imgs/html.png" width="120px" alt="logo HTML 5">
+                    <!-- Button trigger modal -->
+                    <button id="btn-html" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mod1">
+                        Ver HTML
+                    </button>
 
-                <!-- Modal -->
-                <div class="modal fade" id="mod1" tabindex="-1" aria-labelledby="mod1"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="mod1">Modal title</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <ul class="list-group list-group-flush">
-                                    <li style="color: #362557; background-color: transparent;" class="list-group-item">
-                                        Principais tags
-                                    </li>
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                       Familiaridade com Syntax</li>
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Principais atributos
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="mod1" tabindex="-1" aria-labelledby="mod1" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="mod1">HTML</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li style="color: #362557; background-color: transparent;"
+                                            class="list-group-item">
+                                            Principais tags
+                                        </li>
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Familiaridade com Syntax</li>
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Principais atributos
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </span>
-            <span class="abs" style="background-color: #3b99d47e;">
-                <img class="abs-img" src="./imgs/css.png" width="120px" alt="logo CSS">
-                <!-- Button trigger modal -->
-                <button id="btn-css" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mod2">
-                    Ver CSS
-                </button>
+                </span>
+                <span class="abs" style="background-color: #3b99d47e;">
+                    <img class="abs-img" src="./imgs/css.png" width="120px" alt="logo CSS">
+                    <!-- Button trigger modal -->
+                    <button id="btn-css" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mod2">
+                        Ver CSS
+                    </button>
 
-                <!-- Modal -->
-                <div class="modal fade" id="mod2" tabindex="-1" aria-labelledby="mod2"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="mod2">Modal title</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <ul class="list-group list-group-flush">
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Familiaridade com a
-                                        Syntax</li>
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Principais
-                                        Pseudo-classes</li>
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Principais
-                                        Propriedades</li>
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Básico de Flex /
-                                        Grid</li>
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Básico de Media
-                                        query</li>
-                                </ul>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="mod2" tabindex="-1" aria-labelledby="mod2" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="mod2">CSS</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Familiaridade com a
+                                            Syntax</li>
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Principais
+                                            Pseudo-classes</li>
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Principais
+                                            Propriedades</li>
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Básico de Flex /
+                                            Grid</li>
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Básico de Media
+                                            query</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </span>
-            <span class="abs" style="background-color: #e5a3287e;">
-                <img class="abs-img" src="./imgs/javascript.png" width="120px" alt="logo javascript">
-                <!-- Button trigger modal -->
-                <button id="btn-js" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mod3">
-                    Ver javaScript
-                </button>
+                </span>
+                <span class="abs" style="background-color: #e5a3287e;">
+                    <img class="abs-img" src="./imgs/javascript.png" width="120px" alt="logo javascript">
+                    <!-- Button trigger modal -->
+                    <button id="btn-js" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mod3">
+                        Ver javaScript
+                    </button>
 
-                <!-- Modal -->
-                <div class="modal fade" id="mod3" tabindex="-1" aria-labelledby="mod3"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="mod3">Modal title</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <ul class="list-group list-group-flush">
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Conhecimento acerca
-                                        da Syntax</li>
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Conhecimento sobre
-                                        DOM</li>
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Principais métodos
-                                    </li>
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Básico sobre OOP
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="mod3" tabindex="-1" aria-labelledby="mod3" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="mod3">JavaScript</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Conhecimento acerca
+                                            da Syntax</li>
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Conhecimento sobre
+                                            DOM</li>
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Principais métodos
+                                        </li>
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Básico sobre OOP
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </span>
-            <span class="abs" style="background-color: #543c7a83;">
-                <img class="abs-img" src="https://fuzati.com/wp-content/uploads/2016/12/Bootstrap-Logo.png"
-                    width="120px" alt="logo bootstrap">
-                <!-- Button trigger modal -->
-                <button id="btn-bs" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mod4">
-                    Ver Bootstrap
-                </button>
+                </span>
+                <span class="abs" style="background-color: #543c7a83;">
+                    <img class="abs-img" src="https://fuzati.com/wp-content/uploads/2016/12/Bootstrap-Logo.png"
+                        width="120px" alt="logo bootstrap">
+                    <!-- Button trigger modal -->
+                    <button id="btn-bs" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mod4">
+                        Ver Bootstrap
+                    </button>
 
-                <!-- Modal -->
-                <div class="modal fade" id="mod4" tabindex="-1" aria-labelledby="mod4"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="mod4">Modal title</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <ul class="list-group list-group-flush">
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Experiência com a
-                                        criação de interfaces utilizando o framework</li>
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                    </li>
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="mod4" tabindex="-1" aria-labelledby="mod4" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="mod4">Bootstrap</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Experiência com a
+                                            criação de interfaces utilizando o framework</li>
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                        </li>
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </span>
-            <span class="abs" style="background-color: #464655;">
-                <img class="abs-img" src="./imgs/react.png" width="120px" alt="logo react">
-                <!-- Button trigger modal -->
-                <button id="btn-react" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mod5">
-                    Ver React JS
-                </button>
+                </span>
+                <span class="abs" style="background-color: #464655;">
+                    <img class="abs-img" src="./imgs/react.png" width="120px" alt="logo react">
+                    <!-- Button trigger modal -->
+                    <button id="btn-react" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mod5">
+                        Ver React JS
+                    </button>
 
-                <!-- Modal -->
-                <div class="modal fade" id="mod5" tabindex="-1" aria-labelledby="mod5"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="mod5">Modal title</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <ul class="list-group list-group-flush">
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Criação de
-                                        React-App por meio de npm</li>
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Conhecimento acerca
-                                        da Syntax</li>
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Criação de
-                                        Componentes dinâmicos</li>
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Básico de consumo
-                                        API com Axios</li>
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Básico de criação
-                                        de rotas com Router-DOM</li>
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Principais hooks
-                                        [useState e useEffect]</li>
-                                </ul>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="mod5" tabindex="-1" aria-labelledby="mod5" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="mod5">React JS</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Criação de
+                                            React-App por meio de npm</li>
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Conhecimento acerca
+                                            da Syntax</li>
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Criação de
+                                            Componentes dinâmicos</li>
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Básico de consumo
+                                            API com Axios</li>
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Básico de criação
+                                            de rotas com Router-DOM</li>
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Principais hooks
+                                            [useState e useEffect]</li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </span>
-            <span class="abs" style="background-color: #A4A4A4;">
-                <img class="abs-img" src="./imgs/git.png" width="120px" alt="logo git">
-                <!-- Button trigger modal -->
-                <button id="btn-git" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mod6">
-                    Ver Git
-                </button>
+                </span>
+                <span class="abs" style="background-color: #A4A4A4;">
+                    <img class="abs-img" src="./imgs/git.png" width="120px" alt="logo git">
+                    <!-- Button trigger modal -->
+                    <button id="btn-git" type="button" class="btn" data-bs-toggle="modal" data-bs-target="#mod6">
+                        Ver Git
+                    </button>
 
-                <!-- Modal -->
-                <div class="modal fade" id="mod6" tabindex="-1" aria-labelledby="mod6"
-                    aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-scrollable">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="mod6">Modal title</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
-                            </div>
-                            <div class="modal-body">
-                                <ul class="list-group list-group-flush">
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Versionamento por
-                                        meio de GitHub Desktop</li>
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Commit</li>
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Criação de branches
-                                    </li>
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Merge</li>
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Push</li>
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Pull</li>
-                                    <li style="background-color: transparent; color: #362557;" class="list-group-item">
-                                        Fork / Pull Request
-                                    </li>
-                                </ul>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Save changes</button>
+                    <!-- Modal -->
+                    <div class="modal fade" id="mod6" tabindex="-1" aria-labelledby="mod6" aria-hidden="true">
+                        <div class="modal-dialog modal-dialog-scrollable">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="mod6">Git</h5>
+                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                        aria-label="Close"></button>
+                                </div>
+                                <div class="modal-body">
+                                    <ul class="list-group list-group-flush">
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Versionamento por
+                                            meio de GitHub Desktop</li>
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Commit</li>
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Criação de branches
+                                        </li>
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Merge</li>
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Push</li>
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Pull</li>
+                                        <li style="background-color: transparent; color: #362557;"
+                                            class="list-group-item">
+                                            Fork / Pull Request
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary"
+                                        data-bs-dismiss="modal">Fechar</button>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-            </span>
-        </div>
+                </span>
+            </div>
+        </section>
+
 
         <hr>
         <span>
@@ -352,34 +384,47 @@
         </span>
         <div style="padding: 30px 0px; display: flex; flex-direction: column; gap: 25px;">
             <div style="border-radius: 12px;" class="card">
-                <img src="./imgs/planetafome.PNG" width="255px" style="border-radius: 10px;"
-                    alt="Imagem da home Planeta Fome">
-                <h3 class="proj-title">Planeta Fome</h3>
-                <p class="proj-desc">
-                    Projeto feito em equipe e desenvolvido com HTML5, CSS3, JS e Bootstrap, com o objetvo de ser uma
-                    plataforma de doação a
-                    famílias
-                    carentes de São Paulo
-                </p>
-                <span class="btns" style="text-align: center;">
-                    <img src="./imgs/github-logo-silhouette-in-a-square.png" width="11%" style="border-radius: 50%;"
-                        alt="logo github">
-                    Visitar Página
-                </span>
+                <div class="in-card">
+                    <img src="./imgs/planetafome.PNG" width="255px" style="border-radius: 10px;"
+                        alt="Imagem da home Planeta Fome">
+                    <div class="proj-desc-div">
+                        <h3 class="proj-title">Planeta Fome</h3>
+                        <p class="proj-desc">
+                            Projeto feito em equipe e desenvolvido com HTML5, CSS3, JS e Bootstrap, com o objetvo de ser
+                            uma
+                            plataforma de doação a
+                            famílias
+                            carentes de São Paulo
+                        </p>
+                        <span class="btns" style="text-align: center;">
+                            <a class="gh-links" href="" target="_blank" rel="noopener noreferrer">
+                                <img src="./imgs/github-logo-silhouette-in-a-square.png" width="11%"
+                                    style="border-radius: 50%;" alt="logo github">
+                                Visitar Página
+                            </a>
+                        </span>
+                    </div>
+                </div>
             </div>
             <div style="border-radius: 12px;" class="card">
-                <img src="./imgs/waterpage.PNG" width="255px" style="border-radius: 10px;"
-                    alt="Imagem da home waterpage">
-                <h3 class="proj-title">WaterPage</h3>
-                <p class="proj-desc">
-                    Projeto feito com o intuito de simular um website de notícias. Desenvolvido em HTML5, CSS3 e
-                    Bootstrap
-                </p>
-                <span class="btns" style="text-align: center;">
-                    <img src="./imgs/github-logo-silhouette-in-a-square.png" width="11%" style="border-radius: 50%;"
-                        alt="logo github">
-                    Visitar Página
-                </span>
+                <div class="in-card">
+                    <img src="./imgs/waterpage.PNG" width="255px" style="border-radius: 10px;"
+                        alt="Imagem da home waterpage">
+                    <div>
+                        <h3 class="proj-title">WaterPage</h3>
+                        <p class="proj-desc">
+                            Projeto feito com o intuito de simular um website de notícias. Desenvolvido em HTML5, CSS3 e
+                            Bootstrap
+                        </p>
+                        <span class="btns" style="text-align: center;">
+                            <a class="gh-links" href="http://" target="_blank" rel="noopener noreferrer">
+                                <img src="./imgs/github-logo-silhouette-in-a-square.png" width="11%"
+                                    style="border-radius: 50%;" alt="logo github">
+                                Visitar Página
+                            </a>
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
     </main>
@@ -387,11 +432,16 @@
         <h5>
             Informações de Contato
         </h5>
-        <div style="text-align: center;">
-            <img style="border-radius: 8px;" src="./imgs/github-logo-silhouette-in-a-square.png" width="45px"
-                alt="logo github">
-            <img src="./imgs/linkedin.png" width="45px" alt="logo linkedin">
-            <img src="./imgs/gmail.png" width="63px" alt="logo gmail">
+        <div id="footer-img-div" style="text-align: center;">
+            <a href="https://github.com/GurgelAmaral" target="_blank" rel="noopener noreferrer">
+                <img style="border-radius: 8px;" src="./imgs/gh1.png" width="45px" alt="logo github">
+            </a>
+            <a href="https://www.linkedin.com/in/lucas-gurgel-/" target="_blank" rel="noopener noreferrer">
+                <img src="./imgs/in1.png" width="45px" alt="logo linkedin">
+            </a>
+            <a href="mailto:contato.lucasgurgel@gmail.com" target="_blank" rel="noopener noreferrer">
+                <img src="./imgs/gm1.png" width="63px" alt="logo gmail">
+            </a>
         </div>
         <p>
             &copy; 2021 Lucas Gurgel
