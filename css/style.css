@@ -276,6 +276,10 @@ li {
     #top-btn{
         display: none;
     }
+
+    .main-title{
+        width: 100% !important;
+    }
 }
 
 @media screen and (min-width: 640px) {
