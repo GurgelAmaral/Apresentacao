@@ -8,6 +8,32 @@ body, * {
     font-family: 'Questrial', sans-serif;
 }
 
+#top-btn{
+    position: absolute;
+    background-color: rgb(180, 179, 179);
+    right: 20px;
+    bottom: 14px;
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    z-index: 100;
+    opacity: .45;
+    border-radius: 12px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#top-btn:hover{
+    opacity: .7;
+}
+
+#top-btn img{
+    transform: rotate(-45deg);
+}
+
 main {
     padding: 0px 14px 0px 14px;
 }
@@ -237,6 +263,12 @@ li {
 #btn-git {
     background-color: #808080;
     color: white;
+}
+
+@media screen and (max-width: 1023px) {
+    #top-btn{
+        display: none;
+    }
 }
 
 @media screen and (min-width: 640px) {

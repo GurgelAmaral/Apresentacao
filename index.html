@@ -17,6 +17,11 @@
 </head>
 
 <body>
+    <a href="#navbarNav">
+    <div id="top-btn">
+        <img src="./imgs/arrow.png" width="30px" alt="ilustração de seta">
+    </div>
+    </a>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
@@ -31,21 +36,28 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">
+                        <a class="nav-link active" aria-current="page" href="#about-me">
                             <span class="main-color">
-                                Home
+                                Sobre
                             </span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="#habi">
                             <span class="main-color">
-                                Features
+                                Habilidades
                             </span>
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">
+                        <a class="nav-link" href="#proje">
+                            <span class="main-color">
+                                Projetos
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">
                             <span class="main-color">
                                 Contato
                             </span>
@@ -68,7 +80,7 @@
             <a href="https://www.linkedin.com/in/lucas-gurgel-/" target="_blank">
                 <img src="./imgs/linkedin.png" style="opacity: .47;" width="45px" alt="logo linkedin">
             </a>
-            <a title="E-mail: contato.lucasgurgel@gmail.com"  href="mailto:contato.lucasgurgel@gmail.com">
+            <a title="E-mail: contato.lucasgurgel@gmail.com" href="mailto:contato.lucasgurgel@gmail.com">
                 <img src="./imgs/gmail.png" style="opacity: .47;" width="63px" alt="logo gmail">
             </a>
         </div>
@@ -83,7 +95,7 @@
     <main>
 
         <span>
-            <h2 class="main-title" title="sm">Sobre Mim</h2>
+            <h2 class="main-title" id="about-me" title="sm">Sobre Mim</h2>
         </span>
         <div class="main-content">
             <img src="./imgs/github-logo-silhouette-in-a-square.png" style="border-radius: 50%; margin-top: 16px;"
@@ -94,7 +106,7 @@
             </p>
         </div>
 
-        <hr>
+        <hr id="habi">
         <span>
             <h2 class="main-title">Habilidades</h2>
         </span>
@@ -254,12 +266,6 @@
                                             class="list-group-item">
                                             Experiência com a
                                             criação de interfaces utilizando o framework</li>
-                                        <li style="background-color: transparent; color: #362557;"
-                                            class="list-group-item">
-                                        </li>
-                                        <li style="background-color: transparent; color: #362557;"
-                                            class="list-group-item">
-                                        </li>
                                     </ul>
                                 </div>
                                 <div class="modal-footer">
@@ -378,7 +384,7 @@
         </section>
 
 
-        <hr>
+        <hr id="proje">
         <span>
             <h2 class="main-title">Projetos</h2>
         </span>
@@ -417,7 +423,8 @@
                             Bootstrap
                         </p>
                         <span class="btns" style="text-align: center;">
-                            <a class="gh-links" href="https://gurgelamaral.github.io/WaterPage/" target="_blank" rel="noopener noreferrer">
+                            <a class="gh-links" href="https://gurgelamaral.github.io/WaterPage/" target="_blank"
+                                rel="noopener noreferrer">
                                 <img src="./imgs/github-logo-silhouette-in-a-square.png" width="11%"
                                     style="border-radius: 50%;" alt="logo github">
                                 Visitar Página
@@ -429,7 +436,7 @@
         </div>
     </main>
     <footer>
-        <h5>
+        <h5 id="contact">
             Informações de Contato
         </h5>
         <div id="footer-img-div" style="text-align: center;">
@@ -437,10 +444,10 @@
                 <img style="border-radius: 8px;" src="./imgs/gh1.png" width="45px" alt="logo github">
             </a>
             <a href="https://www.linkedin.com/in/lucas-gurgel-/" target="_blank" rel="noopener noreferrer">
-                <img src="./imgs/in1.png" width="45px" alt="logo linkedin">
+                <img src="./imgs/in2.png" width="45px" alt="logo linkedin">
             </a>
             <a href="mailto:contato.lucasgurgel@gmail.com" target="_blank" rel="noopener noreferrer">
-                <img src="./imgs/gm1.png" width="63px" alt="logo gmail">
+                <img src="./imgs/gm1.png" width="56px" alt="logo gmail">
             </a>
         </div>
         <p>
