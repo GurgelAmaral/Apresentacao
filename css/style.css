@@ -401,6 +401,7 @@ li {
     #about-me-p{
         text-align: justify;
         padding: 30px;
+        width: 500px;
     }
 
     #about-me-outter-div{
