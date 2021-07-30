@@ -409,7 +409,7 @@ li {
         border-radius: 15px;
         /* border: 1px solid grey; */
         padding: 30px;
-        width: 900px;
+        width: 1200px;
         margin: 0 auto !important;
     }
 
@@ -418,7 +418,7 @@ li {
         box-shadow: 0px 1px 25px rgb(160, 160, 160);
         /* border: 1px solid grey; */
         padding: 30px;
-        width: 900px;
+        width: 1200px;
         margin: 0 auto !important;
         margin-top: 50px !important;
     }
@@ -436,11 +436,13 @@ li {
         box-shadow: 0px 1px 25px rgb(160, 160, 160);
         /* border: 1px solid grey; */
         padding: 30px;
-        width: 900px;
+        width: 1200px;
         margin: 0 auto !important;
         margin-top: 50px !important;
     }
-
+    .main-title{
+        margin: 0 auto;
+    }
     #about-me-img{
         width: 200px;
     }
